@@ -1,15 +1,17 @@
-<script>
-export default {
-  data(){
-    return{
-      message: 'La mia prima app con Vite'
-    }
-  }
-}
+<script setup>
+import appHero from './components/AppHero.vue'
+// export default {
+//   data(){
+//     return{
+//       message: 'La mia prima app con Vite'
+//     }
+//   }
+// }
 </script>
 
 <template>
-  <h1>{{ message }}</h1>
+  <!-- <h1>{{ message }}</h1> -->
+  <appHero />
 </template>
 
 <style scoped>
